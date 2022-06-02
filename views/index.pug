@@ -1,0 +1,63 @@
+//- index.pug
+doctype html
+html
+  head
+    title Vidhan Cricket Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul 
+            div#logo 
+                 img(src="/static/img/logo.png")     
+                 | HDA
+            li #[a(href="/") Home] 
+            li #[a(href="/") About] 
+            li #[a(href="/") Services] 
+            li #[a(href="/") Class info] 
+            li #[a(href="/contact") Contact Us] 
+
+
+section#introSection
+    div  Welcome to vidhan's Cricket Academy
+    div.small  Practice doesn’t make perfect, perfect practice makes perfect.
+
+section#missionSection 
+        h2 Our Mission 
+        div.card
+            h3 Cricket Perfection
+            div.card-box 
+                div.card-img
+                     img(src="/static/img/1.png")
+                div.card-content
+                    p This is the best cricket academy of the universe
+
+        div.card
+            h3 Ain’t No Stoppin’ Us Now
+            div.card-box 
+                div.card-img
+                     img(src="/static/img/2.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Expert coach
+            div.card-box 
+                div.card-img
+                     img(src="/static/img/4.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+section#sponsorsSection
+    h1 Our Sponsors
+    div#sponsors
+        img(src="/static/img/logo2.png", alt="sponsors Image", class="spImage")
+        img(src="/static/img/logo5.png", alt="sponsors Image", class="spImage")
+        img(src="/static/img/logo6.png", alt="sponsors Image", class="spImage")
+        img(src="/static/img/logo7.png", alt="sponsors Image", class="spImage")
+       
+footer#footer 
+    | Copyright © 2022 VidhanCricketAcademy.com All rights reserved
+
+    script
+      include ../static/index.js

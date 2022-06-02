@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+h1{
+    text-align: center;
+    margin: 12px 0px;
+   
+}
+
+.container{
+    min-height: 80vh;
+    margin: 15px 0px;  
+}
+
+.container h1{
+    font-family: 'Chewy', cursive;
+    font-size: 45px;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.myInput{
+    font-size: 16px;
+    width: 45%;
+    padding: 10px;
+    margin: 9px;
+    border: 2px solid #3c3c7a;
+    border-radius: 15px;
+    outline: none;
+}
+ 
+    .btn {
+        font-size: 18px;
+        width: 7%;
+        padding: 12px 16px;
+        margin: 7px;
+        border: 2px solid #3c3c7a;
+        border-radius: 15px;
+        outline: none;
+        color: white;
+        background-color: #24246f;
+        cursor: pointer;
+    }

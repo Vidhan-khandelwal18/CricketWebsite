@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    height: 25px;
+    align-items: center;
+    color: white;
+    margin: 0px 14px;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+#logo img{
+    height: 65px;
+    filter: invert(1);
+}
+
+#navbar{
+    background-color: #26395e;
+    padding: 22px 14px;
+    height: 78px;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Chewy', cursive;
+    
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+   /* justify-content: center; */
+}
+
+#navbar li{
+   list-style: none;
+}
+
+#navbar li a{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 13px 30px ;
+    font-size: 1.4rem;
+    color: white;
+}
+
+#navbar li a:hover{
+    color: black;
+    cursor: pointer;
+ }
+
+#introSection{
+    background: center/cover no-repeat url("/static/img/bg.jpg");
+    padding-bottom: 60px;
+    height: 518px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: skybluej;
+    color: #030e21;
+    font-size: 75px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#introSection div.small{
+font-size: 42px;
+}
+
+#missionSection{
+    height: 350px;
+    margin: auto;
+    width: 85%;
+ }
+ 
+#missionSection h2{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Chewy', cursive;
+    font-size: 40px;
+ }
+ 
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    height: 220px;
+    margin: 23px 20px;
+    background-color: #f1f6fb;
+ }
+ 
+.card h3{
+    text-align: center;   
+    margin: 15px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    } 
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+.card-img{
+    height: 150px;
+    padding: 0px 14px;
+    margin: 0px 5px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0px 10px;
+}
+
+.card-content p{
+      font-size: 20px;
+}
+
+#sponsorsSection{
+   height: 330px;
+   background-color: #ceddea;
+}
+
+#sponsorsSection h1{
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Chewy', cursive;
+    font-size: 40px;
+}
+
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.spImage{
+    height: 84%;
+    margin: 50px 16px;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 60px;
+    background-color: black;
+    font-size: 18px;
+    font-family: 'Chewy', cursive;
+}
